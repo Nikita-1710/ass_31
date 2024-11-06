@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Page</title>
+</head>
+<style>
+    .container{
+        background-color: #d9b3ff;
+        border: 1.5px solid #9900cc;
+        height: 420px;
+        width: 50%;
+        border-radius: 30px;
+        display: flex;
+        margin: 30px auto;
+        box-shadow: 1px 1px 10px 10px #8c8c8c;
+    }
+
+    .text-center{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    #product-img{
+        height: 350px;
+        width: 350px;
+        margin: 30px;
+    }
+
+    .product-container{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 30px auto;
+    }
+
+    .product-div{
+        width: 50%;
+    }
+
+    .product-description-div{
+        width: 50%;
+    }
+
+    .prod-img{
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 0.5px 0.5px 20px 0.5px grey;
+        cursor: pointer;
+    }
+
+    .prod-img:hover{
+        height: 90px;
+        box-shadow: 2px 2px 20px 3px #808080;
+        transition: 0.5s;
+    }
+
+    h2{
+        color:  #4d0099;
+    }
+
+    .description{
+        display: block;
+        justify-content: center;
+    }
+
+    h4{
+        margin-left: 35px;
+    }
+
+    .paragraph{
+        margin: 15px;
+        width: 350px;
+    }
+
+    p{
+        margin-left: 45px;
+    }
+
+    .buy-now{
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn{
+        margin-top: 50px;
+        padding: 10px 90px;
+        background-color: #4d0099;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="product-div">
+            <img src="./img/1.jpg" id="product-img" alt="school-bag">
+        </div>
+
+        <div class="product-description-div">
+            <p class="description">
+                <h2 class="text-center">Chris & Kate School Bag</h2>
+            </p>
+
+            <p class="paragraph">
+                <h4>Description :</h4>
+                <p>
+                    Boys And Girls Multi-Print School Backpack <br>
+                    Perfect For School, College, Everyday Use <br>
+                    Includes Free Stationery Pouch And Rain/Dust Cover, 35 Liter
+                </p>
+            </p>
+
+            <p class="paragraph">
+                <h4>Price :</h4>
+                <p>
+                    <del>₹ 1599/-</del>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>₹ 1299/-</span>
+                </p>
+            </p>
+
+            <div class="buy-now">
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
