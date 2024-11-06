@@ -145,5 +145,12 @@
         <img src="./img/red.jpg" class="prod-img" onclick="changeProdImg('./img/red.jpg')">
         <img src="./img/sky-blue.jpg" class="prod-img" onclick="changeProdImg('./img/sky-blue.jpg')">
     </div>
+
+    <script>
+        function changeProdImg(imgName) {
+            const mainImg = document.getElementById('product-img');
+            mainImg.src = imgName;
+        }
+    </script>
 </body>
 </html>
